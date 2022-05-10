@@ -1,0 +1,179 @@
+body{
+    background: #aaaaaa ;
+    right: 30px;
+}
+
+header{
+    background: #3d84b8;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 30px black;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 6px;
+}
+
+.encabezado{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    border:0px solid black ;
+    
+}
+
+.logo{
+    width: 27%;
+    height: auto; overflow: hidden;
+    float: left;
+    color: white;
+    font-size: 22px;
+    margin-top: 50px ;
+}
+
+.menu{
+    width: 60%;
+    height: 40px;
+    float: right;
+    border: 0px solid ;
+    margin-top: 43px;
+}
+
+.menu ul{}
+
+.menu ul li{
+list-style: none;
+display:inline-block;
+margin-top: 10px;
+}
+
+.menu ul li .enlace{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.menu ul li .enlace:hover{
+    background: #344fa1;
+    color: white;
+    border-radius: 5px 5px 0px 0px ;
+}
+
+.menu ul li .active-menu{
+    background: #aaaaaa;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+}
+
+.description{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+
+
+
+.TT{
+    
+    vertical-align: text-top;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: wheat;
+    padding: 0 32px;
+    width: 1500px;
+}
+
+.relax{
+    height: 128px;
+    
+}
+
+.headerP{
+   display: flex;
+   width: 1350px;
+   height: auto;
+   background: whitesmoke;
+   border-radius: 3px;
+   box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, .2); 
+} 
+
+
+.cardsT{
+    width: 290px;
+    height: 210px;
+    background: #87a7b3;
+    box-shadow: 0 20px 60px black;
+
+    padding: 20px;
+border-radius: 30px; 
+  margin-bottom: 20px;
+}
+
+.colums{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    align-content: space-between;
+}
+
+
+
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:212px;
+    z-index: 1100;
+}
+
+.sticky li{
+    list-style-type:none;
+    background-color: dimgrey;
+    color:black;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor:pointer;
+}
+
+.sticky li:hover{
+    margin-left:-115px;
+}
+
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+
+.sticky li p{
+    padding-top:8px;
+    margin:0px;
+    line-height:10px;
+    font-size:11px;
+}
+
+.sticky li p a{
+    text-decoration:none;
+    color:blue;
+}
+
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+
+
+.edit{
+    
+    border-radius: 30px;
+    background-color:  #f8f5f1;
+    color: black;
+}
+
